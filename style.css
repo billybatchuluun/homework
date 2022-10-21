@@ -1,0 +1,170 @@
+/* header */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo {
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+}
+a {
+     text-decoration: none;
+}
+.main-nav .nav-items {
+    display: flex;
+    margin:0;
+    padding: 0;
+}
+.nav-items {
+    display: flex;
+    list-style: none;
+}
+.nav-items li{
+    padding: 0 1rem;
+}
+.cta-btn {
+    background-color: rgba(255, 172, 18, .2);
+    color: rgb(253, 139, 0);
+    padding: 0.5rem;
+    border-radius: 30px;
+}
+/* first banner */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section {
+    padding: 60px;
+}
+.col-2 {
+    width: calc(100%/2 - 10px);
+}
+.img-fluid{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.hero {
+    background-color: #DCEAF5;
+    padding: 0;
+}
+.hero-title h1 {
+    font-size: 4rem;
+    padding: 0 10px 0 0;
+    margin: 50px 30px 10px 0;
+}
+.partners p {
+    margin: 50px auto;
+}
+.btn {
+    background-color: coral;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+    margin: 30px 60px 10px 0;    
+}    
+.flex-item{
+    flex-grow: 1;
+}
+.hero-title p {
+    font-size: 1rem;
+    margin: 0 120px 50px 0;
+}
+.flex img {
+    margin: 20px 20px;
+}    
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gap {
+    gap: 40px;
+}
+.col-3 {
+    width: calc(100%/3 - 50px);
+    flex-grow: 1;
+}
+.secondtitle {
+    font-size: 3rem;
+    margin: 60px 600px 20px 0;
+}
+.second-title p{
+    margin: 0 600px 20px 0;
+}
+.service p {
+    padding: 0 20px 0 0;
+}
+/* second banner */
+.section-software {
+    background-color: #DCEAF5;
+    margin: 60px 0;
+}
+
+.whitespace {
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.softwarejr {
+    justify-content: space-between;
+}
+.softwarejr h2{
+font-size: 36px;
+}
+
+/* energy section */
+.energy-title .{
+    font-size: 3rem;
+}
+.energy-number {
+    font-size: 3rem;
+    color:rgb(253, 139, 0)
+}
+.energy-detail p {
+    padding: 10px;
+}
+.yellowbutton {
+    height: 507px;
+    width: 100px;
+    background-color: coral;
+}
+    /* helping section */
+.section-helping {
+    background-color: #DCEAF5;
+    border-radius: 30px;
+}
+.business-btn {
+    background-color: white;
+    color: rgb(253, 139, 0);
+    padding: 0.5rem;
+    border-radius: 30px;  
+    margin: 30px 60px 10px 0;  
+}
+.digit-btn {
+    color: black;
+    padding: 0.5rem;
+    border-radius: 30px;
+    border: 1px solid black;  
+    margin: 30px 60px 10px 0;  
+}
+.ribbon {
+    position: absolute;
+    
+
+}
+/* experience section */
+
+.exp-img{
+    background-image: url(/images/experience-image.png);
+    background-size: cover;
+
+}
+.shar {
+    background-color: rgb(253, 139, 0);
+    color: white;
+    width: 50%;
+}
